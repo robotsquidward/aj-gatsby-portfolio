@@ -2,9 +2,9 @@ import React from 'react'
 import Section from '../Section'
 import ExperienceUnit from '../ExperienceUnit'
 
-import spotifyQuizLogo from '../../assets/images/projects/spotify-quiz.png'
-import littleNomadLogo from '../../assets/images/projects/little-nomad.png'
-import walkthroughViewGif from '../../assets/images/projects/wvwalkthroughview-optimize.gif'
+import templatoAndroidLogo from '../../assets/images/projects/templato-android-logo.png'
+import gregPuskaric from '../../assets/images/projects/gpuskaric-logo.png'
+import midwestartdeco from '../../assets/images/projects/mwad_screenshot.png'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -12,31 +12,28 @@ class ProjectsSection extends React.Component {
       <Section title="Projects">
         <div className="row">
           <ExperienceUnit
-            logo={littleNomadLogo}
+            logo={templatoAndroidLogo}
             colour="#FFFFFF"
-            title="Little Nomad"
-            link="https://www.littlenomad.co/"
-            timeperiod="2017 - ???"
-            subtitle="A platform for socially aware travellers. Runs on
-              React+Redux with a Ruby on Rails backend."
+            title="Templato"
+            link="https://ajkueterman.com/android/templato-android-template-app/"
+            timeperiod="2017 - current"
+            subtitle="An example/template Android application maintained to the latest specs."
           />
           <ExperienceUnit
-            logo={spotifyQuizLogo}
-            colour="#20DC6B"
-            title="Music Quiz for Spotify"
-            link="https://quiz.praagya.com/"
-            timeperiod="2017"
-            subtitle="A fun quiz which tests your knowledge of music that
-              you've saved. Built using React/Redux."
+            logo={gregPuskaric}
+            colour="#FFFFFF"
+            title="GregPuskaric.com"
+            link="http://gregpuskaric.com/"
+            timeperiod="2018"
+            subtitle="A Jekyll site hosted by GitHub Pages built & shipped for a fellow developer."
           />
           <ExperienceUnit
-            logo={walkthroughViewGif}
-            colour="#312F31"
-            title="WalkthroughView"
-            link="https://github.com/praagyajoshi/WVWalkthroughView"
-            timeperiod="2016"
-            subtitle="A drop in utility to help onboard a new user/feature.
-              Written in Objective C."
+            logo={midwestartdeco}
+            colour="#1A80ED"
+            title="Midwest Art Deco"
+            link="https://midwestartdeco.com/"
+            timeperiod="2015 - Current"
+            subtitle="Built and maintained an Instagram based photography portfolio."
           />
         </div>
       </Section>

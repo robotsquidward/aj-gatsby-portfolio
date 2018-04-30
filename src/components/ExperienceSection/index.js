@@ -14,30 +14,26 @@ class ExperienceSection extends React.Component {
           <ExperienceUnit
             logo={zomatoLogo}
             colour='#CB202D'
-            title='Zomato'
+            title='Fifth Third Bank'
             link='https://www.zomato.com/'
-            timeperiod='2014 - 2015'
-            subtitle='Learnt the ins and outs of product development and
-              built various features including a completely new product.'
+            timeperiod='2014 - current'
+            subtitle='Senior Application Developer, developing features for the Fifth Third Bank Mobile Banking application.  Previously an IT Leadership Program participant.'
           />
           <ExperienceUnit
             logo={fitsoLogo}
             colour='#FFFFFF'
-            title='Fitso'
+            title='Base11 Studios'
             link='https://www.getfitso.com/'
-            timeperiod='2016'
-            subtitle='Built real time GPS tracking on the iOS app,
-              all consumer facing web modules and external APIs in
-              this early stage startup.'
+            timeperiod='2017 - current'
+            subtitle='Helped build iOS applications CaliCalo and fuzZzy as well as the Base11 Studios site and blog using Jekyll and GitHub Pages.'
           />
           <ExperienceUnit
             logo={kayakoLogo}
             colour='#403949'
-            title='Kayako'
+            title='Teradata'
             link='https://www.kayako.com/'
-            timeperiod='2017 - 2018'
-            subtitle='Worked as a Product Engineer on email processing,
-              push notifications, SLAs amongst other things.'
+            timeperiod='2013'
+            subtitle='Updated intranet SSO solution using JavaScript and JSP, re-wrote and migrated reporting PL/SQL reporting app to production database.'
           />
         </div>
       </Section>

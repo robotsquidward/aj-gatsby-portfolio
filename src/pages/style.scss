@@ -67,7 +67,7 @@ $aside-width: 35%;
 
 .aside {
   align-self: stretch;
-  margin: 30px;
+  margin: 50px;
   background-color: #363b3f;
   color: white;
   border-radius: 10px;
@@ -111,7 +111,7 @@ $aside-width: 35%;
 
   // Setting the width and padding sizes
   @include media('>=large') {
-    $aside-width: 35%;
+    $aside-width: 30%;
     $vertical-padding: 50px;
     $horizontal-padding: 64px;
 
@@ -119,7 +119,7 @@ $aside-width: 35%;
     padding: $vertical-padding $horizontal-padding $vertical-padding $horizontal-padding;
   }
   @include media('>=medium', '<large') {
-    $aside-width: 30%;
+    $aside-width: 28%;
     $vertical-padding: 50px;
     $horizontal-padding: 48px;
 

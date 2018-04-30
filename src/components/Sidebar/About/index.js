@@ -11,7 +11,7 @@ class About extends Component {
         <div className="bio">
           A mobile developer enthusiastic about design, documentation, and building static sites in Jekyll and Gatsby JS.
           <div className="emoji">
-            🤖 &nbsp;🏔&nbsp;🎨&nbsp; ⚽️
+            👨🏼‍💻 &nbsp; 🏞️ &nbsp; 🎨 &nbsp; 📱 &nbsp;
           </div>
         </div>
       </div>
