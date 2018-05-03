@@ -1,9 +1,10 @@
 import React from 'react'
-import DesignSection from '../components/DesignSection'
+import Section from '../components/Section'
+import DesignUnit from '../components/DesignUnit'
 
 import './style.scss'
 
-const DesignPage = () => (
+const DesignPage = ({ data }) => (
     <div className="index">
       <div className="designs">
         <h3>Design</h3>
@@ -12,9 +13,39 @@ const DesignPage = () => (
           Illustration, cartoons, logos, and icons.
         </p>
 
-        <DesignSection />
+        <Section>
+          <div className="row">
+            {data.allMarkdownRemark.edges.map(({ node }) => (
+              <DesignUnit
+                logo={node.frontmatter.image}
+                colour='#FFFFFF'
+                title={node.frontmatter.title}
+                link={node.frontmatter.link}
+                timeperiod='2014 - current'
+                subtitle={node.frontmatter.subtitle}
+              />
+            ))}
+          </div>
+        </Section>
       </div>
     </div>
 )
+
+export const query = graphql `
+  query DesignSectionQuery {
+  allMarkdownRemark{
+    edges{
+      node{
+        frontmatter{
+          title
+          subtitle
+          image
+          link
+        }
+      }
+    }
+  }
+}
+`;
 
 export default DesignPage
