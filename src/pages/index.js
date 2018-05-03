@@ -17,6 +17,8 @@ const IndexPage = () => (
           Mobile developer specializing in building Android and iOS native apps.  I'm passionate about design, documentation, and building great user experiences.
         </h3>
 
+        <p>Check out my latest <a href="/designs/">designs</a></p>
+
         <ExperienceSection />
         <ProjectsSection />
       </div>
