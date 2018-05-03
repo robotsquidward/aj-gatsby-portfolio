@@ -25,16 +25,19 @@
   .title {
     padding: 8px 0px;
     font-size: 1.8rem;
+    font-weight: 400;
   }
 
   .time-period {
     font-size: 1.2rem;
     line-height: 0.9rem;
     padding-bottom: 12px;
+    font-style: italic;
+    color: $grey-color;
   }
 
   .subtitle {
-    color: $grey-color;
+    color: $grey-color-dark;
     font-size: 1.4rem;
   }
 

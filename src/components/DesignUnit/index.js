@@ -15,7 +15,7 @@ class DesignUnit extends Component {
             }}>
           </div>
         </a>
-        <div className="title bold">
+        <div className="title">
           {this.props.title}
         </div>
         <div className="time-period">
