@@ -17,6 +17,22 @@ class DesignSection extends React.Component {
             timeperiod='2014 - current'
             subtitle='Senior Application Developer, developing features for the Fifth Third Bank Mobile Banking application.  Previously an IT Leadership Program participant.'
           />
+          <DesignUnit
+            logo={fifthThirdLogo}
+            colour='#FFFFFF'
+            title='Fifth Third Bank'
+            link='https://www.53.com/'
+            timeperiod='2014 - current'
+            subtitle='Senior Application Developer, developing features for the Fifth Third Bank Mobile Banking application.  Previously an IT Leadership Program participant.'
+          />
+          <DesignUnit
+            logo={fifthThirdLogo}
+            colour='#FFFFFF'
+            title='Fifth Third Bank'
+            link='https://www.53.com/'
+            timeperiod='2014 - current'
+            subtitle='Senior Application Developer, developing features for the Fifth Third Bank Mobile Banking application.  Previously an IT Leadership Program participant.'
+          />
         </div>
       </Section>
     )

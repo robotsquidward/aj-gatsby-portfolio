@@ -5,7 +5,7 @@ import './style.scss'
 
 const DesignPage = () => (
     <div className="index">
-      <div className="main">
+      <div className="designs">
         <h3>Design</h3>
 
         <p>
