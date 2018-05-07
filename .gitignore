@@ -61,5 +61,6 @@ typings/
 .cache/
 .vscode/
 static/
-public
+public/index.html
+public/render-page.js.map
 yarn-error.log

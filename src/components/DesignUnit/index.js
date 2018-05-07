@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import './style.scss'
+import { withPrefix } from 'gatsby-link'
 
 class DesignUnit extends Component {
   render() {
@@ -10,10 +11,9 @@ class DesignUnit extends Component {
           <div
             className="image"
             style={{
-              backgroundImage: `url(${this.props.logo})`,
+              backgroundImage: `url(${withPrefix(this.props.logo)})`,
               backgroundColor: this.props.colour
-            }}>
-          </div>
+          }}/>
         </a>
         <div className="title">
           {this.props.title}

@@ -1,7 +1,7 @@
 ---
 title: Templato
 subtitle: A simple Android example app
-image: ../../assets/images/bearded-coffee-gif.gif
+image: ./img/bearded-coffee-gif.gif
 link: https://github.com/robotsquidward/templato-android
 ---
 
