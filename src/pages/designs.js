@@ -7,6 +7,10 @@ import './style.scss'
 const DesignPage = ({ data }) => (
     <div className="index">
       <div className="designs">
+        <h5>
+          <a href="/">🏠</a>
+        </h5>
+
         <h3>Design</h3>
 
         <p>
