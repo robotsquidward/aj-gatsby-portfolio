@@ -15,6 +15,7 @@ const DesignPage = ({ data }) => (
 
         <Section>
           <div className="row">
+
             {data.allMarkdownRemark.edges.map(({ node }) => (
               <DesignUnit
                 logo={node.frontmatter.image}

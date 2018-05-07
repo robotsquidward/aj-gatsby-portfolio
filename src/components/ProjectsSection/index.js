@@ -4,7 +4,7 @@ import ExperienceUnit from '../ExperienceUnit'
 
 import templatoAndroidLogo from '../../assets/images/projects/templato-android-logo.png'
 import gregPuskaric from '../../assets/images/projects/gpuskaric-logo.png'
-import midwestartdeco from '../../assets/images/projects/mwad_screenshot.png'
+import midwestartdeco from '../../assets/images/projects/mwad-logo.png'
 
 class ProjectsSection extends React.Component {
   render() {
@@ -29,7 +29,7 @@ class ProjectsSection extends React.Component {
           />
           <ExperienceUnit
             logo={midwestartdeco}
-            colour="#1A80ED"
+            colour="#FFFFFF"
             title="Midwest Art Deco"
             link="https://midwestartdeco.com/"
             timeperiod="2015 - Current"
