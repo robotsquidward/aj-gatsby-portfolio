@@ -1,0 +1,2 @@
+webpackJsonp([0x7b57a008a962],{333:function(e,t){e.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{title:"Templato",subtitle:"A simple Android example app",image:"./img/bearded-coffee-gif.gif",link:"https://github.com/robotsquidward/templato-android"}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---designs-a8a0f02b7ac196471599.js.map
